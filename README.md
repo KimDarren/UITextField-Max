@@ -32,6 +32,8 @@ Demo
 
 There is a simple DEMO PROJECT using `UITextField+Max` in [Demo](Demo/) directory.
 
+![Demo Screenshot](https://raw.githubusercontent.com/KimDarren/UITextField-Max/master/screenshots/demo.png)
+
 
 License
 -------
