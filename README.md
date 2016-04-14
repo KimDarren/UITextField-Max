@@ -1,7 +1,7 @@
 UITextField+Max
 ======================
 
-![CocoaPods](https://cocoapod-badges.herokuapp.com/v/UITextField+Max/badge.png) [![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)
+![CocoaPods](https://cocoapod-badges.herokuapp.com/v/UITextField+Max/badge.png) [![works badge](https://cdn.rawgit.com/nikku/works-on-my-machine/v0.2.0/badge.svg)](https://github.com/nikku/works-on-my-machine)  [![WTFPL Badge](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)](http://www.wtfpl.net/)
 
 Extension of `UITextField` to set the MAX/LIMIT LENGTH to your text field.
 
