@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953DA0D31CBEA31A0080BDA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DA0C71CBEA31A0080BDA0 /* AppDelegate.m */; };
+		953DA0D41CBEA31A0080BDA0 /* DRNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DA0CA1CBEA31A0080BDA0 /* DRNMainViewController.m */; };
+		953DA0D51CBEA31A0080BDA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953DA0CC1CBEA31A0080BDA0 /* Assets.xcassets */; };
+		953DA0D61CBEA31A0080BDA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953DA0CD1CBEA31A0080BDA0 /* LaunchScreen.storyboard */; };
+		953DA0D81CBEA31A0080BDA0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 953DA0D11CBEA31A0080BDA0 /* Info.plist */; };
+		953DA0D91CBEA31A0080BDA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DA0D21CBEA31A0080BDA0 /* main.m */; };
+		953DA0DD1CBEA3B40080BDA0 /* UITextField+Max.m in Sources */ = {isa = PBXBuildFile; fileRef = 953DA0DC1CBEA3B40080BDA0 /* UITextField+Max.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		952DF2CC1CBEA2B60037D982 /* UITextFieldMaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextFieldMaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953DA0C61CBEA31A0080BDA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		953DA0C71CBEA31A0080BDA0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		953DA0C91CBEA31A0080BDA0 /* DRNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRNMainViewController.h; sourceTree = "<group>"; };
+		953DA0CA1CBEA31A0080BDA0 /* DRNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRNMainViewController.m; sourceTree = "<group>"; };
+		953DA0CC1CBEA31A0080BDA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953DA0CE1CBEA31A0080BDA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953DA0D11CBEA31A0080BDA0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953DA0D21CBEA31A0080BDA0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		953DA0DB1CBEA3B40080BDA0 /* UITextField+Max.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Max.h"; sourceTree = "<group>"; };
+		953DA0DC1CBEA3B40080BDA0 /* UITextField+Max.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Max.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		952DF2C91CBEA2B60037D982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		952DF2C31CBEA2B60037D982 = {
+			isa = PBXGroup;
+			children = (
+				953DA0DA1CBEA3A40080BDA0 /* Classes */,
+				952DF2CE1CBEA2B60037D982 /* UITextFieldMaxDemo */,
+				952DF2CD1CBEA2B60037D982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		952DF2CD1CBEA2B60037D982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				952DF2CC1CBEA2B60037D982 /* UITextFieldMaxDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		952DF2CE1CBEA2B60037D982 /* UITextFieldMaxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				953DA0C51CBEA31A0080BDA0 /* app delegate */,
+				953DA0C81CBEA31A0080BDA0 /* controller */,
+				953DA0CB1CBEA31A0080BDA0 /* Supporting Files */,
+			);
+			path = UITextFieldMaxDemo;
+			sourceTree = "<group>";
+		};
+		953DA0C51CBEA31A0080BDA0 /* app delegate */ = {
+			isa = PBXGroup;
+			children = (
+				953DA0C61CBEA31A0080BDA0 /* AppDelegate.h */,
+				953DA0C71CBEA31A0080BDA0 /* AppDelegate.m */,
+			);
+			path = "app delegate";
+			sourceTree = "<group>";
+		};
+		953DA0C81CBEA31A0080BDA0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				953DA0C91CBEA31A0080BDA0 /* DRNMainViewController.h */,
+				953DA0CA1CBEA31A0080BDA0 /* DRNMainViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		953DA0CB1CBEA31A0080BDA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				953DA0CC1CBEA31A0080BDA0 /* Assets.xcassets */,
+				953DA0CD1CBEA31A0080BDA0 /* LaunchScreen.storyboard */,
+				953DA0D11CBEA31A0080BDA0 /* Info.plist */,
+				953DA0D21CBEA31A0080BDA0 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		953DA0DA1CBEA3A40080BDA0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				953DA0DB1CBEA3B40080BDA0 /* UITextField+Max.h */,
+				953DA0DC1CBEA3B40080BDA0 /* UITextField+Max.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		952DF2CB1CBEA2B60037D982 /* UITextFieldMaxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952DF2E31CBEA2B60037D982 /* Build configuration list for PBXNativeTarget "UITextFieldMaxDemo" */;
+			buildPhases = (
+				952DF2C81CBEA2B60037D982 /* Sources */,
+				952DF2C91CBEA2B60037D982 /* Frameworks */,
+				952DF2CA1CBEA2B60037D982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITextFieldMaxDemo;
+			productName = UITextFieldMaxDemo;
+			productReference = 952DF2CC1CBEA2B60037D982 /* UITextFieldMaxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		952DF2C41CBEA2B60037D982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DarrenLine;
+				TargetAttributes = {
+					952DF2CB1CBEA2B60037D982 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 952DF2C71CBEA2B60037D982 /* Build configuration list for PBXProject "UITextFieldMaxDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 952DF2C31CBEA2B60037D982;
+			productRefGroup = 952DF2CD1CBEA2B60037D982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				952DF2CB1CBEA2B60037D982 /* UITextFieldMaxDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		952DF2CA1CBEA2B60037D982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DA0D81CBEA31A0080BDA0 /* Info.plist in Resources */,
+				953DA0D51CBEA31A0080BDA0 /* Assets.xcassets in Resources */,
+				953DA0D61CBEA31A0080BDA0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		952DF2C81CBEA2B60037D982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953DA0DD1CBEA3B40080BDA0 /* UITextField+Max.m in Sources */,
+				953DA0D41CBEA31A0080BDA0 /* DRNMainViewController.m in Sources */,
+				953DA0D91CBEA31A0080BDA0 /* main.m in Sources */,
+				953DA0D31CBEA31A0080BDA0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		953DA0CD1CBEA31A0080BDA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953DA0CE1CBEA31A0080BDA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		952DF2E11CBEA2B60037D982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		952DF2E21CBEA2B60037D982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952DF2E41CBEA2B60037D982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/UITextFieldMaxDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koreandarren.UITextFieldMaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		952DF2E51CBEA2B60037D982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/UITextFieldMaxDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.koreandarren.UITextFieldMaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		952DF2C71CBEA2B60037D982 /* Build configuration list for PBXProject "UITextFieldMaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952DF2E11CBEA2B60037D982 /* Debug */,
+				952DF2E21CBEA2B60037D982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952DF2E31CBEA2B60037D982 /* Build configuration list for PBXNativeTarget "UITextFieldMaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952DF2E41CBEA2B60037D982 /* Debug */,
+				952DF2E51CBEA2B60037D982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 952DF2C41CBEA2B60037D982 /* Project object */;
+}
