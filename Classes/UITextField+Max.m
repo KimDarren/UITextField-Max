@@ -48,18 +48,18 @@ static NSString * const DRNMaxLengthKey = @"DRNMaxLengthKey";
     NSValue *value = [NSValue value:&maxLength withObjCType:@encode(NSInteger)];
     objc_setAssociatedObject(self, &DRNMaxLengthKey, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     
-    [self textFieldTextChanged:self];
+    [self drn_textFieldTextChanged:self];
     [self removeTarget:self
-                action:@selector(textFieldTextChanged:)
+                action:@selector(drn_textFieldTextChanged:)
       forControlEvents:UIControlEventEditingChanged];
     [self addTarget:self
-             action:@selector(textFieldTextChanged:)
+             action:@selector(drn_textFieldTextChanged:)
    forControlEvents:UIControlEventEditingChanged];
 }
 
 #pragma mark - Event
 
-- (void)textFieldTextChanged:(UITextField *)textField
+- (void)drn_textFieldTextChanged:(UITextField *)textField
 {
     NSInteger adaptedLength = MIN(textField.text.length, textField.maxLength);
     NSRange range = NSMakeRange(0, adaptedLength);
