@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "UITextField+Max"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Set the MAX/LIMIT LENGTH to your text field."
   s.homepage     = "https://github.com/KimDarren/UITextField-Max"
   s.license      = { :type => 'WTFPL', :file => 'LICENSE' }
