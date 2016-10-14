@@ -45,6 +45,7 @@
     _textField.layer.cornerRadius = 5.0f;
     _textField.layer.borderWidth = 1.0f;
     _textField.layer.borderColor = [[UIColor lightGrayColor] CGColor];
+    _textField.maxLength = 5;
     
     // Set the left view to make left-inset to text field.
     UIView *leftView = [[UIView alloc] initWithFrame:CGRectMake(.0f, .0f, 20.0f, .0f)];
