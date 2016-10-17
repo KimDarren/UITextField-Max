@@ -61,9 +61,13 @@ static NSString * const DRNMaxLengthKey = @"DRNMaxLengthKey";
 
 - (void)drn_textFieldTextChanged:(UITextField *)textField
 {
-    NSInteger adaptedLength = MIN(textField.text.length, textField.maxLength);
-    NSRange range = NSMakeRange(0, adaptedLength);
-    textField.text = [textField.text substringWithRange:range];
+    if (textField.text.length <= textField.maxLength) {
+        return;
+    } else {
+        NSInteger adaptedLength = MIN(textField.text.length, textField.maxLength);
+        NSRange range = NSMakeRange(0, adaptedLength);
+        textField.text = [textField.text substringWithRange:range];
+    }
 }
 
 @end
